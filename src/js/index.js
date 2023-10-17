@@ -2,6 +2,7 @@ const INPUT = document.querySelector(".input-text")
 const OUTPUT = document.querySelector(".output-text")
 const BTN_CRYPT = document.querySelector(".crypt")
 const BTN_DECRYPT = document.querySelector(".decrypt")
+const BTN_COPY = document.querySelector('.copy')
 
 
 const PLACEHOLDER_TEXT = 
@@ -36,7 +37,8 @@ BTN_CRYPT.addEventListener('click', (textCrypt)=> {
     if (textCrypt == ''){
         OUTPUT.innerHTML = PLACEHOLDER_TEXT
     } else {
-        OUTPUT.innerHTML = `<textarea class="input-text" style="color:black;">${textCrypt}</textarea>`
+        OUTPUT.innerHTML = `<textarea class="input-text text-copy" style="color:black;">${textCrypt}</textarea>
+        <button class='button copy' onclick="Copy()">Copiar</button>`
       }
     INPUT.value = ""
 })
@@ -54,7 +56,16 @@ BTN_DECRYPT.addEventListener('click', (textCrypt)=> {
     if (textCrypt == ''){
         OUTPUT.innerHTML = PLACEHOLDER_TEXT
     } else {
-        OUTPUT.innerHTML = `<textarea class="input-text">${textCrypt}</textarea>`
+        OUTPUT.innerHTML = `<textarea class="input-text text-copy" style="color:black;">${textCrypt}</textarea>
+        <button class='button copy' onclick="Copy()">Copiar</button>`
       }
     INPUT.value = ""
 })
+
+function Copy() {
+    let copy = document.querySelector('.text-copy')
+    copy.select()
+    copy.setSelectionRange(0, 99999)
+    navigator.clipboard.writeText(copy.value)
+    OUTPUT.innerHTML = PLACEHOLDER_TEXT
+}
