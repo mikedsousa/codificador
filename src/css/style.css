@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --light-blue: #F3F5FC;
+    --dark-blue: #0A3871;
+    --light-gray: #343A40;
+}
+
+* {
+    color: var(--dark-blue);
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 24px 20px 0 20px;
+    background-color: var(--light-blue);
+}
+
+
+main {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+section {
+    width: 100%;
+}
+
+.input-text {
+    width: 100%;
+    height: 30vh;
+    outline: none;
+    border: none;
+    resize: none;
+    font-size: 2rem;
+    background-color: transparent;
+}
+
+.input-text::placeholder {
+   font: normal 400 2rem;
+   color: var(--dark-blue);
+}
+
+.rules {
+    font-size: 0.75rem;
+    align-self: flex-start;
+    color: var(--light-gray);
+    padding-bottom: 1rem;
+}
+
+.rules::before {
+    content: url(../img/exclamation.svg);
+    vertical-align: middle;
+    padding-right: 0.25rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1.5rem;
+}
+
+.button {
+    width: 100%;
+    height: 4.188rem;
+    border-radius: 25px;
+    font-size: 1rem;
+
+}
+
+.crypt {
+    background-color: var(--dark-blue);
+    color: white;
+    border: none;
+}
+
+.crypt:active {
+    background-color: transparent;
+    color: var(--dark-blue);
+    border: solid 1.5px var(--dark-blue);
+}
+
+.decrypt {
+    background-color: transparent;
+    color: var(--dark-blue);
+    border: solid 1.5px var(--dark-blue);
+}
+
+.decrypt:active {
+    background-color: var(--dark-blue);
+    color: white;
+    border: none;
+}
+
+.output-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 186px;
+    background-color: white;
+    text-align: center;
+    margin-top: 3rem;
+    border-radius: 20px;
+    box-shadow: 0px 8px 22px -8px rgba(0,0,0,0.75);
+    line-height: 25px;
+}
+
+.black {
+    color:black
+}
+
+.image {
+    display: none;
+}
+
+.placeholder-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
+}
+
+.placeholder-text {
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+}
+
+.footer {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 400;
+    margin: 1.5rem 0;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 700px) {
+
+    .buttons {
+        width: 100%;
+        flex-direction: row;
+    }
+    
+}
+
+@media only screen and (min-width:1100px) {
+
+    body {
+        padding: 2.5rem 3rem 0 3rem;
+    }
+
+    main {
+        flex-direction: row;
+    }
+
+    .image {
+        display: block;
+    }
+
+    .input-text {
+        height: 54vh;
+        width: 80%;
+    }
+
+    .placeholder {
+        width: 80%;
+    }
+
+    .output-text {
+        max-width: 30%;
+        margin: 0 3rem;
+        height: 67vh;
+    }
+}
