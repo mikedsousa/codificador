@@ -20,7 +20,7 @@ Primeiro desafio de Lógica de Programação responsivo, desenvolvido durante o 
     * A página deve ter campos para inserção do texto a ser criptografado ou descriptografado, e a pessoa usuária deve poder escolher entre as duas opções.
     * O resultado deve ser exibido na tela.
 
-    ### Extras
+* Extras
 
     * Um botão que copie o texto criptografado/descriptografado para a área de transferência - ou seja, que tenha a mesma funcionalidade do ctrl+ C ou da opção "copiar" do menu dos aplicativos.
 
@@ -39,6 +39,7 @@ Primeiro desafio de Lógica de Programação responsivo, desenvolvido durante o 
 ## Resultado do Projeto:
 
     Modelo base [Figma](https://www.figma.com/file/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?type=design&node-id=0-1&mode=design&t=k3a8wjsBsla9RnnG-0).
+    
     Deploy [Github Pages](https://mikedsousa.github.io/codificador/).
 
 ### Desktop
