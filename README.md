@@ -27,19 +27,19 @@ Primeiro desafio de Lógica de Programação responsivo, desenvolvido durante o 
 ## Observações
 
 * Conteúdo Aplicado
-    * Sintaxe básica de JavaScript, HTML e CSS;
-    * Desenvolver soluções conforme o meu raciocínio (lógica);
-    * Criar funcões anônimas;
-    * Utilizar arrays;
-    * Manipular elementos do HTML pelo DOM;
+    * Sintaxe básica de JavaScript, HTML e CSS
+    * Desenvolver soluções conforme o meu raciocínio (lógica)
+    * Criar funcões anônimas
+    * Utilizar arrays
+    * Manipular elementos do HTML pelo DOM
     * RegEx
     * Mobile First
 
 
 ## Resultado do Projeto:
 
-    Figma [Figma](https://www.figma.com/file/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?type=design&node-id=0-1&mode=design&t=k3a8wjsBsla9RnnG-0)
-    Deploy [Github Pages](https://mikedsousa.github.io/codificador/)
+    Modelo base [Figma](https://www.figma.com/file/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?type=design&node-id=0-1&mode=design&t=k3a8wjsBsla9RnnG-0).
+    Deploy [Github Pages](https://mikedsousa.github.io/codificador/).
 
 ### Desktop
 
