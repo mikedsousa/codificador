@@ -26,7 +26,7 @@ let textCrypt
 BTN_CRYPT.addEventListener('click', (textCrypt)=> {
 
     textCrypt = INPUT.value
-    textCrypt = textCrypt.replace(/[^a-z]+/g,'')
+    textCrypt = textCrypt.replace(/[^a-z ]+/g,'')
 
     for (let i = 0; i < CRYPT_CODE.length; i++) {
         if (textCrypt.includes(CRYPT_CODE[i][0])){
@@ -45,7 +45,7 @@ BTN_CRYPT.addEventListener('click', (textCrypt)=> {
 
 BTN_DECRYPT.addEventListener('click', (textCrypt)=> {
     textCrypt = INPUT.value
-    textCrypt = textCrypt.replace(/[^a-z]+/g,'')
+    textCrypt = textCrypt.replace(/[^a-z ]+/g,'')
 
     for (let i = 0; i < CRYPT_CODE.length; i++) {
         if (textCrypt.includes(CRYPT_CODE[i][1])){
