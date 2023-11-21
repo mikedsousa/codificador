@@ -57,10 +57,12 @@ BTN_DECRYPT.addEventListener('click', (textCrypt)=> {
         OUTPUT.innerHTML = PLACEHOLDER_TEXT
     } else {
         OUTPUT.innerHTML = `<textarea class="input-text text-copy" style="color:black;">${textCrypt}</textarea>
-        <button class='button copy' onclick="Copy()">Copiar</button>`
+        <button class='button copy'>Copiar</button>`
       }
     INPUT.value = ""
 })
+
+BTN_COPY.addEventListener('click', Copy())
 
 function Copy() {
     let copy = document.querySelector('.text-copy')
