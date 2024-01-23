@@ -1,0 +1,26 @@
+.textarea {
+  min-height: 300px;
+  width: 100%;
+  padding: 1.5rem 0;
+  color: #0a3871;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  resize: none;
+  overflow: hidden;
+}
+
+.textarea::placeholder {
+  color: #0a3871;
+}
+
+@media (min-width: 1200px) {
+  .textarea {
+    height: 65vh;
+    font-size: 2rem;
+  }
+}

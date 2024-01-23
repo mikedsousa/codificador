@@ -1,0 +1,28 @@
+.container {
+  max-width: 768px;
+  width: 100%;
+}
+
+.container-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+@media (min-width: 900px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+
+  .container-output {
+    width: 400px;
+  }
+}

@@ -1,0 +1,14 @@
+.paragraph {
+  color: #343a40;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 1rem;
+}
+
+.paragraph::before {
+  content: url('../assets/exclamation-circle.svg');
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
