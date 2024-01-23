@@ -1,7 +1,7 @@
 # Codificador de Texto
 
 Primeiro desafio de Lógica de Programação responsivo, desenvolvido durante o curso #onenexteducation
-> Assuntos: HTML | CSS | Javascript | React | Design Responsivo | Mobile First
+> Assuntos: HTML | CSS | Javascript | React | Design Responsivo | Mobile First | RegEx
 
 ## Sobre o Projeto
 
@@ -34,6 +34,7 @@ Primeiro desafio de Lógica de Programação responsivo, desenvolvido durante o 
     * Criar e estilizar componentes no React
     * Utilizar High-order functions
     * Mobile First
+    * Aplicação de RegEx
 
 
 ## Resultado do Projeto:
