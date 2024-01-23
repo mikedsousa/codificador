@@ -12,6 +12,7 @@
   outline: none;
   resize: none;
   overflow: hidden;
+  text-transform: lowercase;
 }
 
 .textarea::placeholder {
