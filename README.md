@@ -1,6 +1,6 @@
 # Codificador de Texto
 
-Primeiro desafio de Lógica de Programação responsivo, desenvolvido durante o curso #onenexteducation
+Primeiro desafio de Lógica de Programação responsivo, desenvolvido durante o curso ONE - Oracle Next Education
 > Assuntos: HTML | CSS | Javascript | React | Design Responsivo | Mobile First | RegEx
 
 ## Sobre o Projeto
