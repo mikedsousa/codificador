@@ -1,7 +1,7 @@
 # Codificador de Texto
 
 Primeiro desafio de Lógica de Programação responsivo, desenvolvido durante o curso #onenexteducation
-> Assuntos: HTML | CSS | Javascript | Design Responsivo | Mobile First
+> Assuntos: HTML | CSS | Javascript | React | Design Responsivo | Mobile First
 
 ## Sobre o Projeto
 
@@ -27,28 +27,28 @@ Primeiro desafio de Lógica de Programação responsivo, desenvolvido durante o 
 ## Observações
 
 * Conteúdo Aplicado
-    * Sintaxe básica de JavaScript, HTML e CSS
+    * Sintaxe básica de JavaScript, JSX e CSS
     * Desenvolver soluções conforme o meu raciocínio (lógica)
     * Criar funcões anônimas
     * Utilizar arrays
-    * Manipular elementos do HTML pelo DOM
-    * RegEx
+    * Criar e estilizar componentes no React
+    * Utilizar High-order functions
     * Mobile First
 
 
 ## Resultado do Projeto:
-Modelo base - [Figma](https://www.figma.com/file/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?type=design&node-id=0-1&mode=design&t=k3a8wjsBsla9RnnG-0).
+Modelo base - [Figma](https://www.figma.com/file/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?node-id=0%3A1&mode=dev).
 
-Deploy - [Github Pages](https://mikedsousa.github.io/codificador/).
+Deploy - [Vercel](https://codificador-umber.vercel.app/).
 
 ### Desktop
 
-![Versão para desktop do codificador.](https://i.imgur.com/udIGi3E.png)
+![Versão para desktop](https://i.imgur.com/AUXyfmi.png)
 
 ### Tablet
 
-![Versão para tablet do codificador.](https://i.imgur.com/CvOgOGD.png)
+![Versão para tablet](https://i.imgur.com/OOYgpHQ.png)
 
 ### Mobile
 
-![Versão para mobile do codificador.](https://i.imgur.com/vzZLnqQ.png)
+![Versão para mobile](https://i.imgur.com/sRUaMuQ.png)
