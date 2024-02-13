@@ -50,10 +50,12 @@ function App() {
     let tempText = text;
 
     tempText = tempText.replace(/[^a-z\s]/gi, '');
+    
 
     for (let i = 0; i < code.length; i++) {
       tempText = tempText.replaceAll(code[i][0], code[i][1]);
     }
+
 
     if (text == "") {
       setOutputText(<OutputContent />);
